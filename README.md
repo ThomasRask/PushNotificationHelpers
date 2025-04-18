@@ -9,7 +9,7 @@ A lightweight Delphi helper unit for sending push notifications via:
 
 - Written in pure Delphi
 - Uses `System.Net.HttpClient` (no 3rd party dependencies)
-- JWT generation with [Grijjy JOSE](https://github.com/grijjy/DelphiJOSE-JWT)
+- JWT generation with [JOSE](https://github.com/paolo-rossi/delphi-jose-jwt)
 - Supports custom payloads
 - Works with sandbox and production
 
@@ -22,7 +22,7 @@ A lightweight Delphi helper unit for sending push notifications via:
 ## 🚀 Requirements
 
 - Delphi 12.0 or later (required for native HTTP/2 support via THTTPClient)
-- Grijjy JOSE library: [https://github.com/grijjy/DelphiJOSE-JWT](https://github.com/grijjy/DelphiJOSE-JWT)
+- Grijjy JOSE library: [https://github.com/paolo-rossi/delphi-jose-jwt](https://github.com/paolo-rossi/delphi-jose-jwt)
 
 ## ✅ Example
 
